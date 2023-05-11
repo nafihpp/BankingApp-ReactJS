@@ -7,7 +7,7 @@ import LOGO from "../../assets/LOGO.png";
 
 function Spotlight() {
     useEffect(() => {
-        username.current.focus();
+        //username.current.focus();
     }, []);
     const username = useRef(null);
     return (
